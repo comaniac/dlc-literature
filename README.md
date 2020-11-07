@@ -2,13 +2,13 @@ Deep Learning Compiler Literatures
 ==========================
 This repository is a vault of [Obsidian](https://obsidian.md/), which stores each entry to a markdown (.md) file and maintains a knowledge graph between entries. For example, if an entry `A` mentions another entry `B` with the syntax `[[B]]`, then Obsidian knowledge graph will build an edge between `A` and `B`. The following figure shows an example of the knowledge graph with tags included.
 
-![[ex-graph.png]]
+![Example of Obsidian Knowledge Graph](./artifacts/ex-graph.png)
 
 I attempt to use this feature to connect deep learning compiler research papers. I will start with TVM and gradually add more papers. Everyone is welcome to contribute new entries or comment on existing entries. However, I do not plan to build a forum or a discussion panel. Instead, I hope to keep the summary and comment concise so that everyone can easily catch up the overall idea about the latest developments of deep learning compilers.
 
 ## How to Contribute
 1. Create a new file named "paper-tag.md". Note that "paper-tag" would be the keyword mentioned by other entries, so it should be just one or two words. For the paper that presents a system such as TVM, the system name itself is a proper tag; otherwise, the representative algorithm, feature, methodology could also be candidates. If you really have no clue, then "LastNameOfFirstAuthor-Year.md" could also work.
-2. Copy the [[template]] to the created file and fill out the contents.
+2. Copy the ![template](./artifacts/template.md) to the created file and fill out the contents.
 3. If the paper is publicly available, please provide the PDF URL.
 
 ## Backlog Papers
