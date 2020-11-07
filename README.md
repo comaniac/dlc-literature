@@ -8,7 +8,7 @@ I attempt to use this feature to connect deep learning compiler research papers.
 
 ## How to Contribute
 1. Create a new file named "paper-tag.md". Note that "paper-tag" would be the keyword mentioned by other entries, so it should be just one or two words. For the paper that presents a system such as TVM, the system name itself is a proper tag; otherwise, the representative algorithm, feature, methodology could also be candidates. If you really have no clue, then "LastNameOfFirstAuthor-Year.md" could also work.
-2. Copy the ![template](./artifacts/template.md) to the created file and fill out the contents.
+2. Copy the [template](./artifacts/template.md) to the created file and fill out the contents.
 3. If the paper is publicly available, please provide the PDF URL.
 
 ## Backlog Papers
