@@ -1,4 +1,4 @@
-#tuning #schedule-template #simulated-annealing #transfer-learning #tree-gru #cpu #gpu
+#tvm #autotvm #tuning #schedule-template #simulated-annealing #transfer-learning #tree-gru #cpu #gpu #cost-model
 
 ## Learning to Optimize Tensor Programs
 ## Bibtex
