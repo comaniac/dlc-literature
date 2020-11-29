@@ -14,8 +14,6 @@ I attempt to use this feature to connect deep learning compiler research papers.
 ## Backlog Papers
 - [Triton: An Intermediate Language and Compiler for Tiled Neural Network Computations](http://www.eecs.harvard.edu/~htk/publication/2019-mapl-tillet-kung-cox.pdf)
 - [SWIRL: High-performance many-core CPU code generation for deep neural networks](https://journals.sagepub.com/doi/abs/10.1177/1094342019866247)
-- [Chameleon: Adaptive Code Optimization for Expedited Deep Neural Network Compilation](https://arxiv.org/pdf/2001.08743.pdf)
-- [Relay: A new IR for machine learning frameworks](https://arxiv.org/pdf/1810.00952.pdf)
 - [TASO : Optimizing Deep Learning Computation with Automatic Generation of Graph Substitutions](http://theory.stanford.edu/~aiken/publications/papers/sosp19.pdf)
 - [Diesel: DSL for linear algebra and neural net computations on GPUs](https://www.researchgate.net/profile/Vinod_Grover/publication/325639900_Diesel_DSL_for_linear_algebra_and_neural_net_computations_on_GPUs/links/5cf0ba244585153c3da7b019/Diesel-DSL-for-linear-algebra-and-neural-net-computations-on-GPUs.pdf)
 - [Tensor Comprehensions: Framework-Agnostic High-Performance Machine Learning Abstractions](https://arxiv.org/pdf/1802.04730.pdf)
@@ -42,8 +40,6 @@ I attempt to use this feature to connect deep learning compiler research papers.
 	- Yet another fusion strategy.
 - [Estimating GPU memory consumption of deep learning models](https://dl.acm.org/doi/abs/10.1145/3368089.3417050)
 	- GPU memory cost model.
-- [Nimble: Efficiently Compiling Dynamic Neural Networks for Model Inference](https://arxiv.org/abs/2006.03031)
-	- Relay VM.
 - [The Deep Learning Compiler: A Comprehensive Survey](https://arxiv.org/pdf/2002.03794.pdf)
 - [Deep Learning Systems: Algorithms, Compilers, and Processors for Large-Scale Production](https://www.morganclaypool.com/doi/abs/10.2200/S01046ED1V01Y202009CAC053)
 	- Book. 10/2020.
