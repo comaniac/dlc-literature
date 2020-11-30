@@ -52,14 +52,12 @@ function init(){
     },
     Edge: {
       overridable: true,
-      color: '#23A4FF',
-      lineWidth: 0.4
+      lineWidth: 0.4,
     },
     //Native canvas text styling
     Label: {
       type: labelType, //Native or HTML
       size: 10,
-      style: 'bold'
     },
     //Add Tips
     Tips: {
@@ -100,7 +98,7 @@ function init(){
         if(!node) return;
         // Build the right column relations list.
         // This is done by traversing the clicked node connections.
-        var html = "<h4>" + node.name + "</h4><b> connections:</b><ul><li>",
+        var html = "<h4>" + node.name + "</h4><b> References:</b><ul><li>",
             list = [];
         node.eachAdjacency(function(adj){
           list.push(adj.nodeTo.name);

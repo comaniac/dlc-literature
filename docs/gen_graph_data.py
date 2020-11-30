@@ -7,6 +7,7 @@ IGNORE_FILES = ["README.md"]
 
 def main():
     data = {}
+    adjs = {}
     for file_name_ in glob.glob("./*.md"):
         file_name = os.path.basename(file_name_)
         if file_name in IGNORE_FILES:
@@ -25,28 +26,41 @@ def main():
         node["data"] = {
             "$color": "#557EAA",
             "$type": "circle",
-            "$dim": 5
+            "$dim": 8
         }
 
-        adj = set()
         with open(file_name, "r") as fp:
             for line in fp:
                 matches = re.findall(r"\[\[(.*?)\]\]", line)
                 if not matches:
                     continue
                 for match in matches:
-                    print("\t%s" % match)
                     if match not in data:
                         data[match] = None
-                    adj.add(match)
-            node["adjacencies"] = list(adj)
+                    if match not in adjs:
+                        adjs[match] = set()
+                    adjs[match].add(name)
 
         data[node["id"]] = node
 
-    # Validation
+    # Validation and process connections
     for name, node in data.items():
         if node is None:
             raise RuntimeError("Node definition missing: %s" % name)
+
+        print("Node %s connects to:" % name)
+        if name not in adjs: # Standalone node
+            continue
+
+        node["adjacencies"] = []
+        for adj in adjs[name]:
+            print("\t%s" % adj)
+            adj_entry = {
+                "nodeTo": adj,
+                "nodeFrom": name,
+            }
+            node["adjacencies"].append(adj_entry)
+
 
     ret = "data = `[%s]`\n" % ",".join([json.dumps(v) for v in data.values()])
     with open("docs/data.json", "w") as fp:
