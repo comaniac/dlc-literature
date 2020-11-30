@@ -1,0 +1,23 @@
+name: Deploy
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-18.04
+    steps:
+      - name: Checkout PR
+        uses: actions/checkout@v1
+      - name: Generate graph data
+        run: |
+            python3 docs/gen_graph_data.py
+      - name: Deploy docs
+        uses: JamesIves/github-pages-deploy-action@releases/v3
+        with:
+          ACCESS_TOKEN: ${{ secrets.DEPLOY_ACCESS_TOKEN }}
+          BRANCH: gh-pages
+          FOLDER: docs
+
