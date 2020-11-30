@@ -1,0 +1,25 @@
+data = `[
+    {
+        "id": "tvm",
+        "name": "TVM",
+        "data": {
+            "$color": "#557EAA",
+            "$type": "circle",
+            "$dim": 5
+        },
+        "adjacencies": [
+            "autotvm"
+        ]
+    },
+    {
+        "id": "autotvm",
+        "name": "AutoTVM",
+        "data": {
+            "$color": "#557EAA",
+            "$type": "circle",
+            "$dim": 5
+        },
+        "adjacencies": []
+    }
+]
+`
