@@ -1,5 +1,7 @@
 Deep Learning Compiler Literatures
 ==================================
+[![Build Status](https://github.com/comaniac/dlc-literature/workflows/Deploy/badge.svg)](https://github.com/comaniac/dlc-literature/actions?query=workflow%3ADeploy)
+
 This repository is inspired by [Obsidian](https://obsidian.md/), which stores each entry to a markdown (.md) file and maintains a knowledge graph between entries. For example, if an entry `A` mentions another entry `B` with the syntax `[[B]]`, then Obsidian knowledge graph will build an edge between `A` and `B`. The following figure shows an example of the knowledge graph with tags included.
 
 ![Example of Obsidian Knowledge Graph](./artifacts/ex-graph.png)
