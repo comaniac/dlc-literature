@@ -98,13 +98,19 @@ function init(){
         if(!node) return;
         // Build the right column relations list.
         // This is done by traversing the clicked node connections.
-        var html = "<h4>" + node.name + "</h4><b> References:</b><ul><li>",
+        var html = "<h4><a href=\"https://github.com/comaniac/dlc-literature/blob/main/"
+              + node.name + ".md\">" + node.name + "</a></h4><b> References:</b><ul><li>",
             list = [];
         node.eachAdjacency(function(adj){
           list.push(adj.nodeTo.name);
         });
         //append connections information
         $jit.id('inner-details').innerHTML = html + list.join("</li><li>") + "</li></ul>";
+
+        // Build the center column embedded page.
+        $jit.id('page-details').innerHTML = "<iframe src=\"https://github.com/comaniac/dlc-literature/blob/main/"
+          + node.name + ".md\" " + "title=\"" + node.name + "\""
+          + "style=\"width: 1000px; height: 1500px; border: 0px\"></iframe>";
       }
     },
     //Number of iterations for the FD algorithm
