@@ -106,11 +106,6 @@ function init(){
         });
         //append connections information
         $jit.id('inner-details').innerHTML = html + list.join("</li><li>") + "</li></ul>";
-
-        // Build the center column embedded page.
-        $jit.id('page-details').innerHTML = "<iframe src=\"https://github.com/comaniac/dlc-literature/blob/main/"
-          + node.name + ".md\" " + "title=\"" + node.name + "\""
-          + "style=\"width: 1000px; height: 1500px; border: 0px\"></iframe>";
       }
     },
     //Number of iterations for the FD algorithm
