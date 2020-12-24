@@ -20,6 +20,3 @@ https://www.usenix.org/system/files/osdi20-zheng.pdf
 - [[TVM]] auto-scheduler.
 - Different from [[AutoTVM]] and [[FlexTensor]], Ansor performs template-free serach.
 - Differert from [[Halide-Auto-Schedule-CPU]], Ansor neither prunes schedule candidates, nor explores the tuning space in order.
-
-## Comments
-N/A

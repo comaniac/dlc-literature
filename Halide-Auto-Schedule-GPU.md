@@ -22,6 +22,3 @@ https://dl.acm.org/doi/fullHtml/10.1145/3406117
 ## Summary
 - Basically the GPU version of [[Halide-Auto-Schedule-CPU]] to auto-schedule [[Halide]] programs.
 - Proposed a GPU cost model.
-
-## Comments
-N/A

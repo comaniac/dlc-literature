@@ -21,6 +21,3 @@ https://www.usenix.org/system/files/atc19-liu-yizhi.pdf
 - Based on the [[AutoTVM]] tuning results.
 - Benchmark layout transform (`NCHW[x]c` to `NCHW[y]c`) overheads.
 - Use dynamic programming to optimize the `c`.
-
-## Comments
-N/A

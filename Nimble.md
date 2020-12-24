@@ -18,6 +18,3 @@ https://arxiv.org/abs/2006.03031
 ## Summary
 - [[Relay]] virtual machine for [[TVM]].
 - Deal with dynamic model execution.
-
-## Comments
-N/A

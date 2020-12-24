@@ -24,6 +24,3 @@ https://escholarship.org/content/qt5h71f534/qt5h71f534.pdf
 - Construct a tuning space to a tree, and use beam search to explore.
 - Use a low-level cost model to prune the branches.
 - Only for CPU, because GPU cost model is not available yet.
-
-## Comments
-N/A

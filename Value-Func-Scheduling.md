@@ -20,6 +20,3 @@ https://arxiv.org/pdf/2011.14486.pdf
 - Model the problem of choosing the best schedule as a deterministic Markov Decision Process.
 - Solve the MDP by iteratively improving (reinforcement learning) a value function to predict the best achievable performance over all remaining decisions.
 -  Search time is less than 1 minute.
-
-## Comments
-N/A

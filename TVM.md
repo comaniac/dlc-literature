@@ -19,6 +19,3 @@ https://www.usenix.org/system/files/osdi18-chen.pdf
 - Deep learning compiler.
 - The compute/schedule decoupled programming model is inspired by [[Halide]].
 - Support CPU/GPU/FPGA and other edge devices.
-
-## Comments
-N/A

@@ -18,6 +18,3 @@ https://arxiv.org/pdf/2001.08743.pdf
 ## Summary
 - Build on the top of [[TVM]] and [[AutoTVM]].
 - Use reinforcement learning to reduce the number of measurements in order to faciliate the tuning process.
-
-## Comments
-N/A

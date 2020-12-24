@@ -12,6 +12,3 @@ Link to the paper URL.
 
 ## Summary
 A short summary of this paper
-
-## Comments
-One paragraph per comment. 

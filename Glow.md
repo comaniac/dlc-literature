@@ -20,6 +20,3 @@ https://arxiv.org/pdf/1805.00907.pdf
 - Lack of details in the paper.
 - Only provide CPU backend. By the time the paper was published, only single thread is supported. Now it seems support multithreading, but still CPU only.
 - Support heterogeneous execution.
-
-## Comments
-N/A

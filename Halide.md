@@ -21,6 +21,3 @@ https://dspace.mit.edu/bitstream/handle/1721.1/85943/A%20language.pdf?sequence=1
 
 ## Summary
 - The first IR that decouples compute and schedule.
-
-## Comments
-N/A

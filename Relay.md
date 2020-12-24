@@ -17,6 +17,3 @@ https://arxiv.org/pdf/1904.08368.pdf
 
 ## Summary
 - Graph-level IR for [[TVM]].
-
-## Comments
-N/A
