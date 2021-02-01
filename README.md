@@ -58,3 +58,7 @@ Specifically, here are the TODOs I am currently thinking:
 - [The Deep Learning Compiler: A Comprehensive Survey](https://arxiv.org/pdf/2002.03794.pdf)
 - [Deep Learning Systems: Algorithms, Compilers, and Processors for Large-Scale Production](https://www.morganclaypool.com/doi/abs/10.2200/S01046ED1V01Y202009CAC053)
 	- Book. 10/2020.
+- [ApproxTuner: A Compiler and Runtime System for Adaptive Approximations](http://rsim.cs.illinois.edu/Pubs/21-PPOPP-approxtuner.pdf).
+	- A three-phase approach to approximation-tuning at dev-/deploy-/runtime-stage.
+- [Mistify: Automating DNN Model Porting for On-Device Inference at the Edge](http://www.cs.yale.edu/homes/guo-peizhen/publication/nsdi21/).
+	- Deploy models on edge devices with mode architecture adaption and parameter tuning.
